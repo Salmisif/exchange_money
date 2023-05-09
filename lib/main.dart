@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-      title: const Text('yes go'),
+      title: const Text('yes g'),
       centerTitle: true,
       backgroundColor: Colors.green,
       elevation: 20,
@@ -15,6 +15,9 @@ class Home extends StatelessWidget {
         icon: const Icon(Icons.menu),
         onPressed: () {},
       ),
-    ));
+    )
+    bottom: TabBar(tabs: [],
+    ),
+    );
   }
 }
